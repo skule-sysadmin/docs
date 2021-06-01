@@ -10,7 +10,7 @@ If you have encountered an HTTP 500 error after the transition to Plesk, it migh
 4. Select `bin/bash` (or your preferred shell) for `Access to the server over SSH` then click OK. Note that not all shells are available.
 5. Connect to the server using SSH. Use [this guide](https://support.plesk.com/hc/en-us/articles/115000172834-How-to-connect-to-a-Plesk-server-via-SSH-with-available-server-s-credentials) if you don't know how to. Use the username of the FTP account and the password you just created.
 6. Type `cd` and press enter to navigate to your home directory.
-7. Get the script by using `wget https://raw.githubusercontent.com/skule-sysadmin/docs/main/show-old-htaccess.sh`
+7. Get the script by using `wget https://raw.githubusercontent.com/skule-sysadmin/docs/main/show-old-htaccess/show-old-htaccess.sh`
 8. Give yourself permission to run the script by using `chmod u+x show-old-htaccess.sh`
 9. Run the script by doing `./show-old-htaccess.sh`. The script will output (something along the lines of) the following, then list where the outdated commands are used
 

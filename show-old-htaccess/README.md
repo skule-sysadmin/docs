@@ -6,7 +6,7 @@ If you have encountered an HTTP 500 error after the transition to Plesk, it migh
 
 1. Log in to the Plesk web panel
 2. Click on `FTP Access` and then on the account name (something along the lines of `sub_(numbers)`.)
-3. Come up with a password following the advice [here](https://xkcd.com/936/).
+3. Come up with a password following the advice [here](https://xkcd.com/936/) (please don't actually use `correcthorsebatterystaple`.)
 4. Select `bin/bash` (or your preferred shell) for `Access to the server over SSH` then click OK. Note that not all shells are available.
 5. Connect to the server using SSH. Use [this guide](https://support.plesk.com/hc/en-us/articles/115000172834-How-to-connect-to-a-Plesk-server-via-SSH-with-available-server-s-credentials) if you don't know how to. Use the username of the FTP account and the password you just created.
 6. Type `cd` and press enter to navigate to your home directory.
